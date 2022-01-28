@@ -1,0 +1,9 @@
+<view class="dec-top"></view>
+<view class="weather" hover-class="weather-hover">18℃</view>
+<view class="date"><text>5月26日</text><text>星期六</text></view>
+<view class="thing-tip">您现在需要做的事情是：</view>
+<view class="thing">{{thing}}</view>
+<view class="time-tip">截止时间为：</view>
+<view class="dec-bottom"></view>
+<button open-type="getUserInfo"open-type="getUserInfo" bindgetuserinfo="fn">获取用户信息</button>
+<button open-type="openSetting">授权页面</button>
